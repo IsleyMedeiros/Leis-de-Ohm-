@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercícios - Lei de Ohm</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">Lei de Ohm</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="conceitos.html">Conceitos</a></li>
+                <li><a href="calculadora.html">Calculadora</a></li>
+                <li><a href="aplicacoes.html">Aplicações</a></li>
+                <li><a href="exercicios.html" class="active">Exercícios</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="content">
+            <h1>Exercícios Práticos</h1>
+            
+            <div class="exercises-container">
+                <div class="exercise-card">
+                    <h2>Exercício 1</h2>
+                    <p>Um circuito contém uma resistência de 220 Ω e é alimentado por uma fonte de 12 V. Qual é a corrente que flui pelo circuito?</p>
+                    <div class="solution-container">
+                        <button class="show-solution">Solução</button>
+                        <div id="solution1" class="solution">
+                            <p>Para resolver este problema, usamos a Lei de Ohm: I = V/R</p>
+                            <p>I = 12 V / 220 Ω = 0,055 A ou 55 mA</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="exercise-card">
+                    <h2>Exercício 2</h2>
+                    <p>Um motor elétrico com resistência de 5 Ω está consumindo uma corrente de 2,5 A. Qual é a tensão aplicada ao motor?</p>
+                    <div class="solution-container">
+                        <button class="show-solution">Solução</button>
+                        <div id="solution2" class="solution">
+                            <p>Para resolver este problema, usamos a Lei de Ohm: V = R × I</p>
+                            <p>V = 5 Ω × 2,5 A = 12,5 V</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="exercise-card">
+                    <h2>Exercício 3</h2>
+                    <p>Uma lâmpada LED opera com 3,3 V e consome 20 mA de corrente. Qual é a resistência da lâmpada?</p>
+                    <div class="solution-container">
+                        <button class="show-solution">Solução</button>
+                        <div id="solution3" class="solution">
+                            <p>Primeiro, convertemos 20 mA para A: 20 mA = 0,02 A</p>
+                            <p>Agora usamos a Lei de Ohm: R = V/I</p>
+                            <p>R = 3,3 V / 0,02 A = 165 Ω</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="exercise-card">
+                    <h2>Exercício 4</h2>
+                    <p>Em um circuito, a fonte fornece 24 V e tem três resistores em série: R1 = 100 Ω, R2 = 220 Ω, e R3 = 330 Ω. Qual é a corrente do circuito e a queda de tensão em cada resistor?</p>
+                    <div class="solution-container">
+                        <button class="show-solution">Solução</button>
+                        <div id="solution4" class="solution">
+                            <p>Primeiro, calculamos a resistência total:</p>
+                            <p>R<sub>total</sub> = R1 + R2 + R3 = 100 Ω + 220 Ω + 330 Ω = 650 Ω</p>
+                            <p>Usando a Lei de Ohm para a corrente: I = V/R<sub>total</sub></p>
+                            <p>I = 24 V / 650 Ω = 0,037 A ou 37 mA</p>
+                            <p>A queda de tensão em cada resistor (V = I × R):</p>
+                            <p>V1 = 0,037 A × 100 Ω = 3,7 V</p>
+                            <p>V2 = 0,037 A × 220 Ω = 8,14 V</p>
+                            <p>V3 = 0,037 A × 330 Ω = 12,21 V</p>
+                            <p>Verificação: V1 + V2 + V3 = 3,7 V + 8,14 V + 12,21 V = 24,05 V ≈ 24 V</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="practice-section">
+                <h2>Prática Interativa</h2>
+                <p>Use a calculadora da Lei de Ohm para resolver os seguintes problemas:</p>
+                <ol>
+                    <li>Calcule a corrente em um circuito com tensão de 9V e resistência de 180Ω</li>
+                    <li>Determine a resistência necessária para limitar a corrente a 100mA em um circuito de 12V</li>
+                    <li>Encontre a tensão aplicada a um circuito com corrente de 0,25A e resistência de 100Ω</li>
+                </ol>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Lei de Ohm - Projeto Educacional | Aluno: Thiago Isley de Medeiros - RA: H516013 - Ciências da Computação - UNIP Anchieta</p>
+    </footer>
+</body>
+</html> 
